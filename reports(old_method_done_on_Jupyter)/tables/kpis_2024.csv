@@ -1,0 +1,2 @@
+year,annual_kWh,avg_daily_kWh,peak_slot_local,peak_slot_kWh,base_load_kWh_per_30min,weekend_share_percent
+2024,5066.4385,13.842728142076503,18:30,0.4192,0.2021,28.18

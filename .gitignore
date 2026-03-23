@@ -1,0 +1,8 @@
+.venv/
+.smp_env/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+scraping/logs/
+scraping/hashes/
+*.bat

@@ -1,0 +1,44 @@
+paths:
+  raw_dir: "data/raw"
+  clean_dir: "data/clean"
+  figs_dir: "reports/figures"
+  tables_dir: "reports/tables"
+  logs_dir: "reports/logs"
+
+data:
+  files: ["2023.csv", "2024.csv", "2025.csv"]
+  timezone_local: "Europe/Dublin"
+  process_tz: "UTC"
+  interval_minutes: 30
+  dayfirst: true
+  encoding: "utf-8"
+  delimiter: ","
+
+policies:
+  treat_as_kwh_if: ["Active Import (kWh)", "kWh"]
+  treat_as_kw_if: ["kW"]
+  kw_to_kwh_factor: 0.5
+  dedupe_keep: "last"
+  gap_fill_limit_intervals: 2
+  daily_completeness_min: 44
+  negative_kwh_is_invalid: true
+  remove_identifiers: true
+  export_dpi: 160
+  seed: 42
+
+reporting:
+  years_for_summary: [2023, 2024, 2025]
+
+c1_tariffs:
+  user_agent: "ULSmartMeterFYP/0.1 (student final year project, University of Limerick)"
+  suppliers:
+    - name: "Electric Ireland"
+      url: "https://www.electricireland.ie/switch/new-customer/price-plans?priceType=E"
+      method: "static"
+
+
+run:
+  mode: "single"                 # "single" or "multi"
+  input_file: "2024.csv"         # used when mode="single"
+  input_files: ["2023.csv","2024.csv","2025.csv"]   # used when mode="multi"
+  run_label: "2024"              # used for filenames in single mode (optional but recommended)

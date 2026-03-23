@@ -1,0 +1,10 @@
+supplier,plan_name,meter_type,structure,estimated_cost_eur,scraped_estimated_bill_eur
+Electric Ireland,Home Electric + SST Saver 24%,Smart,3-Period,1224.746774,1255.0
+Electric Ireland,Home Electric SST Saver 24%,Smart,3-Period,1224.746774,1255.0
+Electric Ireland,EnergySaver NightSaver 20%,DayNight,DayNight,1266.1571836,1354.0
+Electric Ireland,Home Electric + Night Boost 16%,Smart,DayNight,1302.27196565,1370.0
+Electric Ireland,Home Electric + Saver 24%,Smart,24h,1310.1809961000001,1356.0
+Electric Ireland,EnergySaver 20%,Standard,24h,1408.4699030000002,1437.0
+Electric Ireland,Green Electricity NightSaver,DayNight,DayNight,1506.09189155,1545.0
+Electric Ireland,Home Electric+ Weekender Saver 16%,Smart,24h,1589.8484012999995,1471.0
+Electric Ireland,Green Electricity,Standard,24h,1671.9247050000001,1656.0

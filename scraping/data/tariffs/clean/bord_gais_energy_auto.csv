@@ -1,0 +1,9 @@
+supplier,plan_name,meter_type,unit_rate_day_eur_kwh,unit_rate_night_eur_kwh,unit_rate_peak_eur_kwh,unit_rate_24h_eur_kwh,standing_charge_eur_year,discount_percent,structure,scraped_at,unit_rate_weekday_day_eur_kwh,unit_rate_weekday_night_eur_kwh,unit_rate_weekday_peak_eur_kwh,unit_rate_weekend_day_eur_kwh,unit_rate_weekend_night_eur_kwh,unit_rate_weekend_peak_eur_kwh
+Bord Gais Energy,Smart All Day Electricity Discount,smart,0.2828,0.2828,0.2828,,263.84,32.0,3-Period,2026-03-23T02:17:47.030931+00:00,,,,,,
+Bord Gais Energy,Smart EV Electricity Discount,smart,0.33159999999999995,0.2501,0.4625,,383.67,20.0,3-Period,2026-03-23T02:17:47.030931+00:00,,,,,,
+Bord Gais Energy,Smart Free Saturday Electricity Discount,smart,0.3518,0.2585,0.42969999999999997,,263.84,20.0,3-Period,2026-03-23T02:17:47.030931+00:00,,,,,,
+Bord Gais Energy,Smart Free Sunday Electricity Discount,smart,0.3518,0.2585,0.42969999999999997,,263.84,20.0,3-Period,2026-03-23T02:17:47.030931+00:00,,,,,,
+Bord Gais Energy,Smart Standard Electricity Discount,smart,0.3023,0.2231,0.3679,,263.84,32.0,3-Period,2026-03-23T02:17:47.030931+00:00,,,,,,
+Bord Gais Energy,Smart Weekend Electricity Discount,smart,0.2977,0.2662,0.36310000000000003,,263.84,32.0,3-Period,2026-03-23T02:17:47.030931+00:00,,,,,,
+Bord Gais Energy,Standard Variable Smart All Day Electricity,smart,0.41590000000000005,0.41590000000000005,0.41590000000000005,,263.84,0.0,3-Period,2026-03-23T02:17:47.030931+00:00,,,,,,
+Bord Gais Energy,Electricity Discount,24h,0.2828,,,0.2828,263.84,32.0,24h,2026-03-23T02:17:47.030931+00:00,,,,,,

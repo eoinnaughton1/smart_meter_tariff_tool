@@ -1,0 +1,17 @@
+{
+  "electric_ireland": {
+    "hash": "77200670c63ca7f13829638189ca72ed930410e695943e2df99c736d7d54bd61",
+    "last_checked": "2026-03-21T14:21:32.655617+00:00",
+    "last_scraped": "2026-03-21T14:21:32.655617+00:00"
+  },
+  "bord_gais": {
+    "hash": "90af0c07f2dab5eab5fe350beacf04bdb4da7a181bf77d6870985a30eabfca81",
+    "last_checked": "2026-03-23T02:17:52.263608+00:00",
+    "last_scraped": "2026-03-23T02:17:52.263608+00:00"
+  },
+  "sse_airtricity": {
+    "hash": "e0c83c0d587f08638ab0c8d62a74ffbf25c1a1a2c428a1971f78a4b76e7a9377",
+    "last_checked": "2026-03-19T12:06:21.334780+00:00",
+    "last_scraped": "2026-03-19T12:06:21.334780+00:00"
+  }
+}

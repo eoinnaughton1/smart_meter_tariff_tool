@@ -1,0 +1,6 @@
+supplier,plan_name,meter_type,structure,unit_rate_24h_eur_kwh,unit_rate_day_eur_kwh,unit_rate_night_eur_kwh,unit_rate_peak_eur_kwh,first_year_cost_eur,estimated_annual_bill_eur,source_url,scraped_at_utc
+Electric Ireland,Home Electric + SST Saver 24%,Smart,3-Period,,0.2814,0.1479,0.3002,1223.0,1258.0,https://www.electricireland.ie/switch/new-customer/price-plans?priceType=E,2025-12-03T00:43:28.527609+00:00
+Electric Ireland,Home Electric + Saver 24%,Smart,Unknown,,,,,1236.0,1356.0,https://www.electricireland.ie/switch/new-customer/price-plans?priceType=E,2025-12-03T00:43:28.528668+00:00
+Electric Ireland,Home Electric + Night Boost 16%,Smart,DayNight,,0.3053,0.1505,,1370.0,1370.0,https://www.electricireland.ie/switch/new-customer/price-plans?priceType=E,2025-12-03T00:43:28.528668+00:00
+Electric Ireland,Home Electric+ Weekender Saver 16%,Smart,Unknown,,,,,1471.0,1471.0,https://www.electricireland.ie/switch/new-customer/price-plans?priceType=E,2025-12-03T00:43:28.530613+00:00
+Electric Ireland,Home Electric SST Saver 24%,Smart,3-Period,,0.2814,0.1479,0.3002,1223.0,1258.0,https://www.electricireland.ie/switch/new-customer/price-plans?priceType=E,2025-12-03T00:43:28.530613+00:00

@@ -1,0 +1,67 @@
+# Tariff Scraping System
+
+## Project Structure
+
+```
+project/
++-- monitor.py                   # Change detection + scrape dispatch
++-- run_scraper.py               # CLI entry point
++-- scrapers/
+|   +-- __init__.py
+|   +-- base.py                  # BaseTariffScraper + schema + clean_numeric()
+|   +-- registry.py              # Supplier registry
+|   +-- electric_ireland.py      # Electric Ireland scraper
+|   +-- template_supplier.py     # Copy for new suppliers
++-- data/tariffs/
+    +-- .page_hashes.json        # Persisted hashes (auto-created)
+    +-- clean/
+        +-- electric_ireland_auto.csv
+```
+
+## Output Schema (matches matching.py)
+
+| Column | Type | Description |
+|---|---|---|
+| supplier | str | e.g. "Electric Ireland" |
+| plan_name | str | Plan display name |
+| meter_type | str | "24h" / "daynight" / "smart" |
+| unit_rate_day_eur_kwh | float | Day/standard rate |
+| unit_rate_night_eur_kwh | float | Night rate (NaN if N/A) |
+| unit_rate_peak_eur_kwh | float | Peak rate (NaN if N/A) |
+| unit_rate_24h_eur_kwh | float | Flat 24h rate (NaN if not flat) |
+| standing_charge_eur_year | float | Annual standing charge |
+| discount_percent | float | Headline discount (0.0 if none) |
+| structure | str | "24h" / "DayNight" / "3-Period" |
+| scraped_at | str | ISO-8601 UTC timestamp |
+
+## Usage
+
+```bash
+# One-shot with change detection
+python run_scraper.py electric_ireland
+
+# Force re-scrape
+python run_scraper.py electric_ireland --force
+
+# All suppliers
+python run_scraper.py --all
+
+# Continuous monitoring
+python monitor.py --interval 3600
+```
+
+## Adding a New Supplier
+
+1. Copy template_supplier.py to e.g. scrapers/sse_airtricity.py
+2. Set supplier_name and target_url
+3. Implement scrape() with appropriate selectors
+4. Register in scrapers/registry.py
+
+## Dependencies
+
+```
+playwright
+pandas
+```
+
+Install browsers: `playwright install chromium`

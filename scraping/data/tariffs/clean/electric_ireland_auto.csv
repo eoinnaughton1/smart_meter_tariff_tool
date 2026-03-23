@@ -1,0 +1,8 @@
+supplier,plan_name,meter_type,unit_rate_day_eur_kwh,unit_rate_night_eur_kwh,unit_rate_peak_eur_kwh,unit_rate_24h_eur_kwh,standing_charge_eur_year,discount_percent,structure,scraped_at,unit_rate_weekday_day_eur_kwh,unit_rate_weekday_night_eur_kwh,unit_rate_weekday_peak_eur_kwh,unit_rate_weekend_day_eur_kwh,unit_rate_weekend_night_eur_kwh,unit_rate_weekend_peak_eur_kwh
+Electric Ireland,Electricity,24h,0.3127,,,0.3127,269.87,10.0,24h,2026-03-21T14:21:32.639962+00:00,,,,,,
+Electric Ireland,Green Electricity,24h,0.33,,,0.33,269.87,5.0,24h,2026-03-21T14:21:32.639962+00:00,,,,,,
+Electric Ireland,Electricity NightSaver,daynight,0.3506,0.1729,,,347.68,5.0,DayNight,2026-03-21T14:21:32.639962+00:00,,,,,,
+Electric Ireland,Green Electricity NightSaver,daynight,0.3527,0.17489999999999997,,,347.68,5.0,DayNight,2026-03-21T14:21:32.639962+00:00,,,,,,
+Electric Ireland,Home Electric+ SST,smart,0.34990000000000004,0.1839,0.37329999999999997,,269.87,5.0,3-Period,2026-03-21T14:21:32.639962+00:00,,,,,,
+Electric Ireland,Home Electric + Saver 14%,smart,0.2927,,,0.2927,269.87,14.0,24h,2026-03-21T14:21:32.639962+00:00,,,,,,
+Electric Ireland,Home Electric SST,smart,0.34990000000000004,0.1839,0.37329999999999997,,269.87,5.0,3-Period,2026-03-21T14:21:32.639962+00:00,,,,,,
